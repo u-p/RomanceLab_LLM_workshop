@@ -165,6 +165,18 @@ def get_word_surprisal_csv(scorer:any, BOS, input_csv:str, sentence_col:str, wor
 
 
 def get_word_surprisal(scorer:any, BOS:bool, sentence:str, target:str):
+    """
+    Calculates the surprisal value of a target word within a given sentence using a scorer.
+
+    Args:
+        scorer (Any): An object with a `word_score_tokenized` method for scoring words.
+        BOS (bool): Whether to include a beginning-of-sentence token.
+        sentence (str): The sentence in which to compute word surprisals.
+        target (str): The specific word for which to retrieve the surprisal value.
+
+    Returns:
+        float or None: The surprisal value of the target word if found, otherwise None.
+    """
     surprisals = scorer.word_score_tokenized(
         sentence,
         bos_token=BOS,
@@ -175,7 +187,21 @@ def get_word_surprisal(scorer:any, BOS:bool, sentence:str, target:str):
     return next((val for word, val in surprisals[0] if word == target), None)
 
 
-def get_sentence_surprisal_csv(scorer:any, BOS, input_csv:str, sentence_col:str, filename:str, sep=","):
+def get_sentence_surprisal_csv(scorer:any, BOS, input_csv:str, sentence_col:str, output_csv:str, sep=","):
+    """
+    Calculates the surprisal values for sentences in a CSV file and saves the results to a new CSV file.
+
+    Args:
+        scorer (any): The scorer object or function used to compute sentence surprisal.
+        BOS: The beginning-of-sentence token or value required by the scorer.
+        input_csv (str): Path to the input CSV file containing sentences.
+        sentence_col (str): Name of the column in the CSV file that contains the sentences.
+        filename (str): Path to the output CSV file where results will be saved.
+        sep (str, optional): Separator used in the input CSV file. Defaults to ",".
+
+    Returns:
+        None: The function saves the updated DataFrame with surprisal values to the specified output file.
+    """
     df = pandas.read_csv(input_csv, sep=";")
 
     for index, row in df.iterrows():
@@ -187,9 +213,20 @@ def get_sentence_surprisal_csv(scorer:any, BOS, input_csv:str, sentence_col:str,
         # Store the result in the DataFrame
         df.at[index, 'surprisal'] = surprisal
     # Save the DataFrame to a CSV file
-    df.to_csv(filename, index=False)
+    df.to_csv(output_csv, index=False)
 
 
 def get_sentence_surprisal(scorer:any, BOS:bool, sentence:str):
+    """
+    Calculates the surprisal score of a given sentence using a provided scorer.
+
+    Args:
+        scorer (any): An object with a `sequence_score` method that computes the score of a sentence.
+        BOS (bool): Whether to include the beginning-of-sentence token in scoring.
+        sentence (str): The sentence for which to compute surprisal.
+
+    Returns:
+        float or None: The surprisal score (negative log-probability) of the sentence, or None if scoring fails.
+    """
     seq_score = scorer.sequence_score(sentence, bos_token=BOS, bow_correction=True)
     return (-1) * seq_score[0] if seq_score is not None else None
