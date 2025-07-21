@@ -1,0 +1,97 @@
+﻿Item,Condition,Sentence,TargetWord
+1,gram_sg,"Der Vertrag, den die Diplomaten feierlich unterzeichneten bei der Konferenz, hatte viele Seiten.",unterzeichneten
+1,gram_pl,"Die Verträge, die die Diplomaten feierlich unterzeichneten bei der Konferenz, hatten viele Seiten.",unterzeichneten
+1,ungram_sg,"Der Vertrag, den der Diplomat feierlich unterzeichneten bei der Konferenz, hatte viele Seiten.",unterzeichneten
+1,ungram_pl,"Die Verträge, die der Diplomat feierlich unterzeichneten bei der Konferenz, hatten viele Seiten.",unterzeichneten
+2,gram_sg,"Das Geschenk, das die Söhne heimlich öffnen vor dem Weihnachtsabend, steht im Wohnzimmer.",öffnen
+2,gram_pl,"Die Geschenke, die die Söhne heimlich öffnen vor dem Weihnachtsabend, stehen im Wohnzimmer.",öffnen
+2,ungram_sg,"Das Geschenk, das der Sohn heimlich öffnen vor dem Weihnachtsabend, steht im Wohnzimmer.",öffnen
+2,ungram_pl,"Die Geschenke, die der Sohn heimlich öffnen vor dem Weihnachtsabend, stehen im Wohnzimmer.",öffnen
+3,gram_sg,"Das Thema, das die Kollegen heute vorschlagen beim Meeting, scheint kompliziert zu sein.",vorschlagen
+3,gram_pl,"Die Themen, die die Kollegen heute vorschlagen beim Meeting, scheinen kompliziert zu sein.",vorschlagen
+3,ungram_sg,"Das Thema, das der Kollege heute vorschlagen beim Meeting, scheint kompliziert zu sein.",vorschlagen
+3,ungram_pl,"Die Themen, die der Kollege heute vorschlagen beim Meeting, scheinen kompliziert zu sein.",vorschlagen
+4,gram_sg,"Die Hausaufgabe, die die Freunde immer machen vor der Vorlesung, wird am Laptop bearbeitet.",machen
+4,gram_pl,"Die Hausaufgaben, die die Freunde immer machen vor der Vorlesung, werden am Laptop bearbeitet.",machen
+4,ungram_sg,"Die Hausaufgabe, die der Freund immer machen vor der Vorlesung, wird am Laptop bearbeitet.",machen
+4,ungram_pl,"Die Hausaufgaben, die der Freund immer machen vor der Vorlesung, werden am Laptop bearbeitet.",machen
+5,gram_sg,"Der Kurs, den die Professoren erfolgreich unterrichten an der Universität, präsentiert die Grundlagen der Chemie.",unterrichten
+5,gram_pl,"Die Kurse, die die Professoren erfolgreich unterrichten an der Universität, präsentieren die Grundlagen der Chemie.",unterrichten
+5,ungram_sg,"Der Kurs, den der Professor erfolgreich unterrichten an der Universität, präsentiert die Grundlagen der Chemie.",unterrichten
+5,ungram_pl,"Die Kurse, die der Professor erfolgreich unterrichten an der Universität, präsentieren die Grundlagen der Chemie.",unterrichten
+6,gram_sg,"Der Bahnhof, den die Obdachlosen täglich besuchen im Winter, wird von der Polizei beobachtet.",besuchen
+6,gram_pl,"Die Bahnhöfe, die die Obdachlosen täglich besuchen im Winter, werden von der Polizei beobachtet.",besuchen
+6,ungram_sg,"Der Bahnhof, den der Obdachlose täglich besuchen im Winter, wird von der Polizei beobachtet.",besuchen
+6,ungram_pl,"Die Bahnhöfe, die der Obdachlose täglich besuchen im Winter, werden von der Polizei beobachtet.",besuchen
+7,gram_sg,"Die Universität, die die Studenten erwartungsvoll anschauen für das Masterstudium, ist unorganisiert.",anschauen
+7,gram_pl,"Die Universitäten, die die Studenten erwartungsvoll anschauen für das Masterstudium, sind unorganisiert.",anschauen
+7,ungram_sg,"Die Universität, die der Student erwartungsvoll anschauen für das Masterstudium, ist unorganisiert.",anschauen
+7,ungram_pl,"Die Universitäten, die der Student erwartungsvoll anschauen für das Masterstudium, sind unorganisiert.",anschauen
+8,gram_sg,"Die TV-Sendung, die die Senioren regelmäßig schauen am Wochenende, ist schon alt.",schauen
+8,gram_pl,"Die TV-Sendungen, die die Senioren regelmäßig schauen am Wochenende, sind schon alt.",schauen
+8,ungram_sg,"Die TV-Sendung, die der Senior regelmäßig schauen am Wochenende, ist schon alt.",schauen
+8,ungram_pl,"Die TV-Sendungen, die der Senior regelmäßig schauen am Wochenende, sind schon alt.",schauen
+9,gram_sg,"Das Auto, das die Polizisten spät nachts anhalten bei der Verkehrskontrolle, blockiert die Straße.",anhalten
+9,gram_pl,"Die Autos, die die Polizisten spät nachts anhalten bei der Verkehrskontrolle, blockieren die Straße.",anhalten
+9,ungram_sg,"Das Auto, das der Polizist spät nachts anhalten bei der Verkehrskontrolle, blockiert die Straße.",anhalten
+9,ungram_pl,"Die Autos, die der Polizist spät nachts anhalten bei der Verkehrskontrolle, blockieren die Straße.",anhalten
+10,gram_sg,"Das Haus, das die Feuerwehrmänner so mutig löschen bei einem Brand, war in den Nachrichten.",löschen
+10,gram_pl,"Die Häuser, die die Feuerwehrmänner so mutig löschen bei einem Brand, waren in den Nachrichten.",löschen
+10,ungram_sg,"Das Haus, das der Feuerwehrmann so mutig löschen bei einem Brand, war in den Nachrichten.",löschen
+10,ungram_pl,"Die Häuser, die der Feuerwehrmann so mutig löschen bei einem Brand, waren in den Nachrichten.",löschen
+11,gram_sg,"Das Fahrrad, das die Diebe problemlos klauten in der Nacht, wurde niemals wieder gesehen.",klauten
+11,gram_pl,"Die Fahrräder, die die Diebe problemlos klauten in der Nacht, wurden niemals wieder gesehen.",klauten
+11,ungram_sg,"Das Fahrrad, das der Dieb problemlos klauten in der Nacht, wurde niemals wieder gesehen.",klauten
+11,ungram_pl,"Die Fahrräder, die der Dieb problemlos klauten in der Nacht, wurden niemals wieder gesehen.",klauten
+12,gram_sg,"Das Bild, das die Fotografen gestern präsentierten in der Galerie, wurde von den Besuchern gemocht.",präsentierten
+12,gram_pl,"Die Bilder, die die Fotografen gestern präsentierten in der Galerie, wurden von den Besuchern gemocht.",präsentierten
+12,ungram_sg,"Das Bild, das der Fotograf gestern präsentierten in der Galerie, wurde von den Besuchern gemocht.",präsentierten
+12,ungram_pl,"Die Bilder, die der Fotograf gestern präsentierten in der Galerie, wurden von den Besuchern gemocht.",präsentierten
+13,gram_sg,"Die Pflanze, die die Bauern täglich wässern im Frühling, ist gesund.",wässern
+13,gram_pl,"Die Pflanzen, die die Bauern täglich wässern im Frühling, sind gesund.",wässern
+13,ungram_sg,"Die Pflanze, die der Bauer täglich wässern im Frühling, ist gesund.",wässern
+13,ungram_pl,"Die Pflanzen, die der Bauer täglich wässern im Frühling, sind gesund.",wässern
+14,gram_sg,"Die Nachspeise, die die Cousins fröhlich verschenken zum Geburtstag, wird von der Mutter fotografiert.",verschenken
+14,gram_pl,"Die Nachspeisen, die die Cousins fröhlich verschenken zum Geburtstag, werden von der Mutter fotografiert.",verschenken
+14,ungram_sg,"Die Nachspeise, die der Cousin fröhlich verschenken zum Geburtstag, wird von der Mutter fotografiert.",verschenken
+14,ungram_pl,"Die Nachspeisen, die der Cousin fröhlich verschenken zum Geburtstag, werden von der Mutter fotografiert.",verschenken
+15,gram_sg,"Das Fußballspiel, das die Journalisten abends kommentieren vor vielen Zuschauern, ist im neuen Stadion.",kommentieren
+15,gram_pl,"Die Fußballspiele, die die Journalisten abends kommentieren vor vielen Zuschauern, sind im neuen Stadion.",kommentieren
+15,ungram_sg,"Das Fußballspiel, das der Journalist abends kommentieren vor vielen Zuschauern, ist im neuen Stadion.",kommentieren
+15,ungram_pl,"Die Fußballspiele, die der Journalist abends kommentieren vor vielen Zuschauern, sind im neuen Stadion.",kommentieren
+16,gram_sg,"Das Buch, das die Philosophen aufmerksam lesen in der Bibliothek, ist sehr langweilig.",lesen
+16,gram_pl,"Die Bücher, die die Philosophen aufmerksam lesen in der Bibliothek, sind sehr langweilig.",lesen
+16,ungram_sg,"Das Buch, das der Philosoph aufmerksam lesen in der Bibliothek, ist sehr langweilig.",lesen
+16,ungram_pl,"Die Bücher, die der Philosoph aufmerksam lesen in der Bibliothek, sind sehr langweilig.",lesen
+17,gram_sg,"Die Stunde, die die Männer manchmal genießen in der Kneipe, ist sehr entspannend.",genießen
+17,gram_pl,"Die Stunden, die die Männer manchmal genießen in der Kneipe, sind sehr entspannend.",genießen
+17,ungram_sg,"Die Stunde, die der Mann manchmal genießen in der Kneipe, ist sehr entspannend.",genießen
+17,ungram_pl,"Die Stunden, die der Mann manchmal genießen in der Kneipe, sind sehr entspannend.",genießen
+18,gram_sg,"Das Interview, das die Moderatoren regelmäßig führen im Fernsehen, ist bei den Zuschauern beliebt.",führen
+18,gram_pl,"Die Interviews, die die Moderatoren regelmäßig führen im Fernsehen, sind bei den Zuschauern beliebt.",führen
+18,ungram_sg,"Das Interview, das der Moderator regelmäßig führen im Fernsehen, ist bei den Zuschauern beliebt.",führen
+18,ungram_pl,"Die Interviews, die der Moderator regelmäßig führen im Fernsehen, sind bei den Zuschauern beliebt.",führen
+19,gram_sg,"Der Plan, den die Architekten präzise zeichnen im Büro, ist sehr wichtig für den Bau des Gebäudes.",zeichnen
+19,gram_pl,"Die Pläne, die die Architekten präzise zeichnen im Büro, sind sehr wichtig für den Bau des Gebäudes.",zeichnen
+19,ungram_sg,"Der Plan, den der Architekt präzise zeichnen im Büro, ist sehr wichtig für den Bau des Gebäudes.",zeichnen
+19,ungram_pl,"Die Pläne, die der Architekt präzise zeichnen im Büro, sind sehr wichtig für den Bau des Gebäudes.",zeichnen
+20,gram_sg,"Die Waffe, die die Soldaten zufällig fanden während des Krieges, tötete viele Menschen.",fanden
+20,gram_pl,"Die Waffen, die die Soldaten zufällig fanden während des Krieges, töteten viele Menschen.",fanden
+20,ungram_sg,"Die Waffe, die der Soldat zufällig fanden während des Krieges, tötete viele Menschen.",fanden
+20,ungram_pl,"Die Waffen, die der Soldat zufällig fanden während des Krieges, töteten viele Menschen.",fanden
+21,gram_sg,"Das Geschäft, das die Hunde verbotenerweise besuchen unter der Woche, ist am Marktplatz.",besuchen
+21,gram_pl,"Die Geschäfte, die die Hunde verbotenerweise besuchen unter der Woche, sind am Marktplatz.",besuchen
+21,ungram_sg,"Das Geschäft, das der Hund verbotenerweise besuchen unter der Woche, ist am Marktplatz.",besuchen
+21,ungram_pl,"Die Geschäfte, die der Hund verbotenerweise besuchen unter der Woche, sind am Marktplatz.",besuchen
+22,gram_sg,"Der Brief, den die Detektive überraschend finden in dem Büro, hat die Unschuld des Mannes gezeigt.",finden
+22,gram_pl,"Die Briefe, die die Detektive überraschend finden in dem Büro, haben die Unschuld des Mannes gezeigt.",finden
+22,ungram_sg,"Der Brief, den der Detektiv überraschend finden in dem Büro, hat die Unschuld des Mannes gezeigt.",finden
+22,ungram_pl,"Die Briefe, die der Detektiv überraschend finden in dem Büro, haben die Unschuld des Mannes gezeigt.",finden
+23,gram_sg,"Die Operation, die die Ärzte durchgeführt haben im Notfall, rettete den Patienten das Leben.",durchgeführt haben
+23,gram_pl,"Die Operationen, die die Ärzte durchgeführt haben im Notfall, retteten den Patienten das Leben.",durchgeführt haben
+23,ungram_sg,"Die Operation, die der Arzt durchgeführt haben im Notfall, rettete den Patienten das Leben.",durchgeführt haben
+23,ungram_pl,"Die Operationen, die der Arzt durchgeführt haben im Notfall, retteten den Patienten das Leben.",durchgeführt haben
+24,gram_sg,"Die Mahlzeit, die die Köche leidenschaftlich zubereiten im neuen Restaurant, war fertig.",zubereiten
+24,gram_pl,"Die Mahlzeiten, die die Köche leidenschaftlich zubereiten im neuen Restaurant, waren fertig.",zubereiten
+24,ungram_sg,"Die Mahlzeit, die der Koch leidenschaftlich zubereiten im neuen Restaurant, war fertig.",zubereiten
+24,ungram_pl,"Die Mahlzeiten, die der Koch leidenschaftlich zubereiten im neuen Restaurant, waren fertig.",zubereiten
